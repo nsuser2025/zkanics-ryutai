@@ -12,4 +12,5 @@ $$
 \end{align}
 $$
 
-$\Delta p / L$
+$\Delta p / L$: 圧力勾配 [Pa/m]
+
