@@ -51,7 +51,7 @@ Navier–Stokes方程式を多孔質体に適用するために修正したモ�
 
 $$
 \begin{align}
-\frac{\Delta p}{L} &= \frac{\mu}{K} u + \frac{\rho F^{2}}{\sqrt{K}}u^{2} - \mu {\nabla}^{2}u \tag{2}
+\frac{\Delta p}{L} &= \frac{\mu}{K} u + \frac{\rho F}{\sqrt{K}}u^{2} - \mu {\nabla}^{2}u \tag{2}
 \end{align}
 $$
 
@@ -62,7 +62,7 @@ $F$:
 第1項: Darcy項
 </p>
 <p>
-第2項: Forchheimer項
+第2項: Forchheimer項 ... $\beta \equiv F/\sqrt{K}$ を Forcheimer係数と言われ、単位はm$^{-1}$.
 </p>
 <p>
 第3項: Brinkman項
